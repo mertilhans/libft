@@ -6,7 +6,7 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 03:10:52 by merilhan          #+#    #+#             */
-/*   Updated: 2024/10/30 03:15:54 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/02 17:25:48 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,22 +14,13 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-    unsigned char *m = (unsigned char*)dest;
-    const unsigned char *s = (const unsigned char *)src;
-    
-    while(n--)
-    {
-        *m++ = *s++;
-    }
-    return (dest);
-}
-#include <stdio.h>
-int main()
-{
-    char src[] = "naber nasil gitmiyo";
-    char dest[20];
+	unsigned char		*m;
+	const unsigned char	*s = (const unsigned char *)src;
 
-    ft_memcpy(dest, src,sizeof(src));
-    printf("Kopyalanmış veri : %s \n",dest);
-    return 0;
+	m = (unsigned char *)dest;
+	if (m == NULL && s == NULL)
+		return (0);
+	while (n--)
+		*m++ = *s++;
+	return (dest);
 }
