@@ -6,14 +6,13 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 12:13:31 by merilhan          #+#    #+#             */
-/*   Updated: 2024/10/30 12:13:32 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/07 19:03:29 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
-# include <stddef.h>
+# include <sys/_types/_size_t.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);

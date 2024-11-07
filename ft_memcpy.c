@@ -6,11 +6,12 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 03:10:52 by merilhan          #+#    #+#             */
-/*   Updated: 2024/11/02 17:25:48 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/07 18:56:46 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <sys/_types/_null.h>
+#include <sys/_types/_size_t.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

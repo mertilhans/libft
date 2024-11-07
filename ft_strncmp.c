@@ -6,11 +6,11 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 03:40:03 by merilhan          #+#    #+#             */
-/*   Updated: 2024/11/02 17:39:58 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/07 18:34:13 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <sys/_types/_size_t.h>
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 

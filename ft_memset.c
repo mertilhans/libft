@@ -6,11 +6,11 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 02:04:13 by merilhan          #+#    #+#             */
-/*   Updated: 2024/10/30 12:16:23 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/07 18:57:20 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include <sys/_types/_size_t.h>
 
 void	*ft_memset(void *b, int c, size_t n)
 {

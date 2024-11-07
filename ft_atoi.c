@@ -6,14 +6,14 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 12:26:03 by merilhan          #+#    #+#             */
-/*   Updated: 2024/11/02 17:21:54 by merilhan         ###   ########.fr       */
+/*   Updated: 2024/11/07 19:05:52 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_atoi(const char *str)
 {
-	int	res;
-	int	sign;
+	long int	res;
+	int			sign;
 
 	res = 0;
 	sign = 1;
